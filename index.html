@@ -19,15 +19,11 @@
                     <hr class="mb-3">
                 </div>
                 <div class="text-center">
-                    <span class="lead fs-1" id="">00</span>
-                    <span class="lead fs-1 fw-bold">:</span>
-                    <span class="lead fs-1" id="">00</span>
-                    <span class="lead fs-1 fw-bold">:</span>
-                    <span class="lead fs-1" id="">00</span>
+                    <p class="lead fs-1" id="time">00 <span class="fw-bold">:</span> 00  <span class="fw-bold">:</span> 00</p>
                     <div class="button-group my-3">
-                        <div class="btn btn-outline-danger"><i class="bi bi-stop-fill"></i></div>
-                        <div class="btn btn-lg btn-outline-danger"><i class="bi bi-caret-right-fill"></i></div>
-                        <div class="btn btn-outline-danger"><i class="bi bi-arrow-counterclockwise"></i></div>
+                        <div class="btn btn-outline-danger" onclick="stopTimer()"><i class="bi bi-stop-fill"></i></div>
+                        <div class="btn btn-lg btn-outline-danger" onclick="startTimer()"><i class="bi bi-caret-right-fill"></i></div>
+                        <div class="btn btn-outline-danger" onclick="resetTimer()"><i class="bi bi-arrow-counterclockwise"></i></div>
                     </div>
                 </div>
             </div>
